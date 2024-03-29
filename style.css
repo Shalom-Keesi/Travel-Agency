@@ -1,0 +1,235 @@
+#land-in-page{ 
+   height: 500px;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+   width: auto;
+
+
+   
+}
+#land-in-page::before{
+    content: "";
+    background-image: url(/images/desert-790640_1280.jpg);
+   background-size:cover;
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   /* opacity: 0.75; */
+   filter: brightness(60%);
+
+
+}
+
+
+#navbar{
+    display: flex;
+    background-color: white;
+    border: solid 0.5px black;
+    border-radius: 35px;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+
+}
+#Home-button{
+    border: solid 1px transparent;
+    border-radius: 20px;
+    background-color: rgb(255, 148, 18);
+    padding-bottom: 12px;
+    padding-top: 7px;
+    padding-left: 21px;
+    padding-right: 21px;
+    color: white;
+    height: 39px;
+    align-self: center;
+}
+#main-intro{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+
+}
+#sub-intro{
+    position: relative;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+   transform: translateY(-149%);
+
+
+}
+#land-in-page-button{
+    position: relative;
+    text-align: center;
+}
+#intro-button{
+    border: solid 1px transparent;
+    border-radius: 20px;
+    background-color: rgb(255, 148, 18);
+    padding-bottom: 12px;
+    padding-top: 7px;
+    padding-left: 21px;
+    padding-right: 21px;
+    color: white;
+    font-weight:bolder;
+    align-items: center;
+}
+.vacation-title{
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+
+}
+#vacation-description{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: small;
+}
+#vacation-images{
+    display: flex;
+    zoom: 30%;
+    justify-content: space-around;
+}
+#grand-canyon{
+    zoom: 225%;
+}
+#vacation-images-captions{
+display: flex;
+justify-content: space-between;
+}
+.vacation-price{
+    display: flex;
+    gap: 45%;
+    text-align: center;
+}
+.per-person{
+    transform: translateY(-95%);
+    font-weight: bolder;
+}
+.vacation-images-arrow{
+    position: absolute;
+}
+#next-images{
+    display: flex;
+    text-align: center;
+    zoom: 25%;
+    justify-content: center;
+    gap: 1%;
+}
+#vacation-features{
+    display: flex;
+    justify-content: space-between;
+
+}
+.vacation-features-icons{
+    zoom: 40%;
+}
+.scribble-line{
+    zoom: 60%;
+}
+.destination-countries{
+    border: solid 1px black;
+    border-radius: 20px;
+    padding:8px;
+}
+#italy-button{
+    color: rgb(255, 148, 18);
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 20px;
+    border: solid 1px rgb(255, 148, 18);
+    padding: 14px;
+}
+#countries{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2%;
+}
+#countries-images{
+    zoom: 30%;
+    vertical-align: middle;
+    margin-top: 5%;
+    border: solid 1px transparent;
+    border-radius: 40px;
+
+
+}
+.countries-images-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    gap: 1%;
+}
+.countries-images-column{
+    flex: 30%;
+    padding: 0 4px;
+}
+#porto-cervo{
+    height: 95%;
+    width: 100%;
+    border: solid 1px transparent;
+    border-radius: 40px;
+}
+#florence{
+    border: solid 1px transparent;
+    border-radius: 40px;  
+
+}
+#venice{
+    border: solid 1px transparent;
+    border-radius: 40px;
+
+}
+#milan{
+    border: solid 1px transparent;
+    border-radius: 40px;
+
+}
+#rome{
+    border: solid 1px transparent;
+    border-radius: 40px;
+
+}
+figcaption{
+    position: absolute;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    transform: translateY(-150%);
+}
+#porto-cervo-figcaption{
+    color: darkblue;
+}
+#client-reviews{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.next-reviews{
+    zoom: 25%;
+    gap: 1%;
+    transform: translateY(85%);
+}
+#client-reviews-heading{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#client-reviews-comments{
+    display: flex;
+    justify-content: space-evenly;
+}
+.professional-woman{
+    zoom: 3%;
+}
